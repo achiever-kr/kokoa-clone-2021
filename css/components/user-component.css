@@ -54,3 +54,21 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__subtitle {
+    display: flex;
+}
+
+.user-component__subtitle-info {
+    display: flex;
+    margin-left: 5px;
+    border: 2px solid rgba(255, 0, 0, 0.5);
+    border-radius: 9px;
+    width: 14px;
+    height: 14px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 14px;
+}
