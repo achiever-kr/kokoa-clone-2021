@@ -21,4 +21,5 @@ body {
 
 .main-screen {
     padding: 0px var(--horizontal-space);
+    height: 100vh;
 }
