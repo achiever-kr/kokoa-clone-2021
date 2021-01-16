@@ -17,6 +17,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     color: #2e363e;
@@ -26,4 +27,5 @@ body {
 .main-screen {
     padding: 0px var(--horizontal-space);
     height: 100vh;
+    /* margin-top: 100px; */
 }
