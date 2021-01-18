@@ -37,9 +37,42 @@
         </div>
     </header>
 
-    <main class="main-screen">
-
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Monday, January 18, 2021
+        </div>
+        <div class="message-row">
+            <img src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/tjddus753-avatar.jpg">
+            <div class="message-row__content">
+                <span class="message__author">Won</span>
+                <div class="message__info">
+                    <span class="message__buble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__buble">Hi! nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-beam"></i>
+            <button>
+                <i class="fas fa-arrow-circle-up"></i>
+            </button>
+        </div>
+    </form>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous">
     </script>

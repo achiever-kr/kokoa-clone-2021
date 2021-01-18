@@ -4,9 +4,12 @@
     align-items: center;
     padding: var(--horizontal-space);
     margin-bottom: 15px;
-    /* position: fixed;
+    position: fixed;
     box-sizing: border-box;
-    width: 100%; */
+    width: 100%;
+    top: 10px;
+    background-color: white;
+    z-index: 1;
 }
 
 .screen-header__title {
